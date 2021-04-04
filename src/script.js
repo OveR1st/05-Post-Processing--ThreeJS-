@@ -117,7 +117,7 @@ debugObject.envMapIntensity = 5
  */
 console.log(require('../static/models/DamagedHelmet/glTF/DamagedHelmet.gltf'))
 gltfLoader.load(
-    require('../static/models/DamagedHelmet/glTF/DamagedHelmet.gltf').default,
+    require('../static/models/DamagedHelmet/glTF/DamagedHelmet.gltf'),
     (gltf) => {
       gltf.scene.scale.set(2.5, 2.5, 2.5)
       gltf.scene.rotation.y = Math.PI * 0.5
